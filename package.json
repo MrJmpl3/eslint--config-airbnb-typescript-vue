@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airbnb-typescript-vue",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Airbnb Base Vue Typescript config",
   "license": "MIT",
   "author": "José Manuel Casani Guerra <jmpl3.soporte@gmail.com>",
