@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airbnb-typescript-vue",
-  "version": "4.0.2",
+  "version": "5.0.0",
   "description": "Airbnb Base Vue Typescript config",
   "license": "MIT",
   "author": "José Manuel Casani Guerra <jmpl3.soporte@gmail.com>",
@@ -14,19 +14,19 @@
     "validate": "npm run lint"
   },
   "dependencies": {
-    "eslint": "^8.53.0",
-    "eslint-config-airbnb-typescript-base": "^5.0.1",
-    "eslint-plugin-vue": "^9.18.1"
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-typescript-base": "^6.0.1",
+    "eslint-plugin-vue": "^9.27.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.1",
+    "@commitlint/cli": "^19.3.0",
     "commitlint-config-gitmoji": "^2.3.1",
-    "eslint-config-prettier": "^9.0.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",
-    "prettier": "^3.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.2",
     "prettier-package-json": "^2.8.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.5.3"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint"
