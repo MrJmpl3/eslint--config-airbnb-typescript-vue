@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-airbnb-typescript-vue",
-  "version": "5.0.0",
+  "version": "6.0.0-alpha.1",
   "description": "Airbnb Base Vue Typescript config",
   "license": "MIT",
   "author": "José Manuel Casani Guerra <jmpl3.soporte@gmail.com>",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "format": "npm run format:package && npm run format:prettier && npm run format:eslint",
@@ -11,24 +12,27 @@
     "format:package": "prettier-package-json --write",
     "format:prettier": "prettier --write \"**/*.{js,json,md,yml}\"",
     "lint": "eslint ./",
+    "prepare": "husky",
     "validate": "npm run lint"
   },
   "dependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb-typescript-base": "^6.0.1",
-    "eslint-plugin-vue": "^9.27.0"
+    "eslint": "^9.20.1",
+    "eslint-config-airbnb-typescript-base": "7.0.0-alpha.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "typescript-eslint": "^8.24.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
+    "@commitlint/cli": "^19.7.1",
     "commitlint-config-gitmoji": "^2.3.1",
-    "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.7",
-    "prettier": "^3.3.2",
+    "eslint-config-prettier": "^10.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.0",
     "prettier-package-json": "^2.8.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.7.3"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint"
-  }
+  },
+  "packageManager": "pnpm@10.3.0+sha512.ee592eda8815a8a293c206bb0917c4bb0ff274c50def7cbc17be05ec641fc2d1b02490ce660061356bd0d126a4d7eb2ec8830e6959fb8a447571c631d5a2442d"
 }
